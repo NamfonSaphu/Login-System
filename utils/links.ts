@@ -5,5 +5,5 @@ type NavLinks = {
 
 export const links: NavLinks[] = [
     {href:'/', label:'Home'},
-    {href:'/contact', label:'Contact'}
+    {href:'/contact', label:'Contact'},
 ]
