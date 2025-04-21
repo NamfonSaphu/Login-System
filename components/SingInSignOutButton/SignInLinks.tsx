@@ -1,4 +1,4 @@
-import { SignUpButton } from '@clerk/nextjs'
+import { SignUpButton} from '@clerk/nextjs'
 import { Button } from "@/components/ui/button"
 
 const SignInLinks = () => {
