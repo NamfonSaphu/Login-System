@@ -7,6 +7,9 @@ import SignOutLinks from "@/components/SingInSignOutButton/SignOutLinks";
 import { Toaster } from "@/components/ui/sonner"
 import SignInLinks from "@/components/SingInSignOutButton/SignInLinks";
 import SingInSignOutLinks from "@/components/SingInSignOutButton/SingInSignOutLikns";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" className={inter.className}>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
