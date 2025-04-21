@@ -5,6 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import Navbar from "@/components/ui/Navbar/Navbar";
 import SignOutLinks from "@/components/Signout/SignOutLinks";
 import { Toaster } from "@/components/ui/sonner"
+import SignInLinks from "@/components/SignIn/SignInLinks";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
           
           {children}
           <Toaster />
+          <SignInLinks />
           <SignOutLinks />
         </body>
       </html>

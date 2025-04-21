@@ -7,7 +7,7 @@ import { toast } from "sonner"
 const SignOutLinks = () => {
     return (
         <div>
-            <SignOutButton>
+            <SignOutButton redirectUrl='/'>
                 <Button variant={'outline'} onClick={() => toast('Logout Successfully!!!')}>Logout</Button>
             </SignOutButton>
         </div>
