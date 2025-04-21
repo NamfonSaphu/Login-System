@@ -8,7 +8,7 @@ const SignOutLinks = () => {
     return (
         <div>
             <SignOutButton redirectUrl='/'>
-                <Button variant={'outline'} onClick={() => toast('Logout Successfully!!!')}>Logout</Button>
+                <Button className='bg-zinc-100 hover:bg-red-500' onClick={() => toast('Logout Successfully!!!')}>Logout</Button>
             </SignOutButton>
         </div>
     )

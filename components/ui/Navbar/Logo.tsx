@@ -3,10 +3,12 @@ import Link from "next/link"
 
 const Logo = () => {
   return (
-    
-    <Button className="p-5" size='sm' asChild>
-      <Link href='/' className="text-2xl font-semibold">NAMFON S</Link>
+
+    <div className="p-5">
+      <Button size='sm' asChild>
+        <Link href='/' className="text-2xl font-semibold bg-stone-50">NAMFON S</Link>
       </Button>
+    </div>
   )
 }
 

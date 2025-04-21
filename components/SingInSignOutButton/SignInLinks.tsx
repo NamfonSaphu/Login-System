@@ -5,7 +5,7 @@ const SignInLinks = () => {
     return (
         <div>
             <SignUpButton mode='modal'>
-                <Button variant={'outline'}>Login</Button>
+                <Button className='bg-zinc-100 hover:bg-sky-500/75'>Login</Button>
             </SignUpButton>
         </div>
     )
